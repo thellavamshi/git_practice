@@ -4,3 +4,9 @@ public void setup()
 WebDriver driver = new ChromeDriver();
 driver.manage().windows().maximize();
 }
+
+@AfterTest
+public void teardown(){
+driver.quit();
+}
+
