@@ -1,0 +1,6 @@
+@BeforeTest
+public void setup()
+{
+WebDriver driver = new ChromeDriver();
+driver.manage().windows().maximize();
+}
