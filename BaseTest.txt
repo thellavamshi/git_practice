@@ -1,0 +1,4 @@
+@AfterTest
+public void teardown(){
+driver.quit();
+}
